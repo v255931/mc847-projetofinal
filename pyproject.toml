@@ -1,7 +1,7 @@
 [project]
 name = "mc847-unsupervised-assignment"
 version = "0.1.0"
-description = "Trabalho Final de Aprendizado NÃ£o Supervisionado â€” MC847 (UNICAMP)"
+description = "Trabalho Final de Aprendizado Não Supervisionado - MC847 (UNICAMP)"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
