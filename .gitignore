@@ -1,1 +1,7 @@
 *Zone.Identifier
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+export/
+resultados_mc847.zip
