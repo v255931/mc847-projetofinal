@@ -18,7 +18,3 @@ Abra `unsupervised_assignment_2s2026.ipynb` e execute todas as células (`Run Al
 
 Figuras e tabelas são gravadas em `figs/` e `results/`.
 
-## Notas de implementação
-
-- A fatoração de matrizes (`FastMatrixFactorization`) e o PPCA (`FastPPCA`) são versões aceleradas das classes de referência: mesmo modelo e mesmas equações, com o laço do SGD compilado em numba e as somas do EM escritas como produtos de matrizes. O notebook verifica, com `assert`, que o resultado coincide com a implementação de referência para a mesma semente.
-- O treino do VAE usa PyTorch (CPU basta para o MovieLens 100K); a fatoração com validação cruzada leva alguns minutos e o restante do notebook, da ordem de dezenas de minutos em CPU.
